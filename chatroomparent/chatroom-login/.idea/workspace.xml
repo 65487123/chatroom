@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2efbcc5-5467-43cd-997a-ec23c741e562" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utstar/chatroom/loginServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chatroom-chatroom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatroom-chatroom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroomlogin/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroomlogin/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroomlogin/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroomlogin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroomlogin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroomlogin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chatroomlogin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroomlogin/chatroomuser.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroomlogin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroomlogin/src/main/java/com/utstar/chatroom/loginServer.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,20 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="136">
               <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/chatroom/loginServer.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/chatroom/user/loginServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="102">
+              <caret line="3" selection-start-line="2" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -58,6 +63,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/utstar/chatroom/loginServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utstar/chatroom/user/loginServer.java" />
       </list>
     </option>
   </component>
@@ -104,34 +110,34 @@
         <subPane>
           <expand>
             <path>
-              <item name="chatroomlogin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroomlogin" type="462c0819:PsiDirectoryNode" />
+              <item name="chatroom-login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom-login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="chatroomlogin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroomlogin" type="462c0819:PsiDirectoryNode" />
+              <item name="chatroom-login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom-login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="chatroomlogin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroomlogin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chatroomlogin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroomlogin" type="462c0819:PsiDirectoryNode" />
+              <item name="chatroom-login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom-login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="chatroomlogin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroomlogin" type="462c0819:PsiDirectoryNode" />
+              <item name="chatroom-login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom-login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatroom-login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom-login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,17 +237,18 @@
       <updated>1579250458686</updated>
       <workItem from="1579250459906" duration="1449000" />
       <workItem from="1579252492238" duration="325000" />
+      <workItem from="1579253201052" duration="539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1774000" />
+    <option name="totallyTimeSpent" value="2313000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19358289" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20427808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -279,24 +286,18 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/chatroom/login/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/chatroom/login/Server.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/chatroom/user/loginServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="102">
+          <caret line="3" selection-start-line="2" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="136">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utstar/chatroom/loginServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
