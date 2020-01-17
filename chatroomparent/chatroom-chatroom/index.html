@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+	<script>
+		var socket;
+		if(window.WebSocket){
+			socket = new WebSocket("ws://127.0.0.1:6654/hello");
+			socket.onopen=function(ev){
+				var rt=document.getElementById("responseText");
+				rt.value="已进入lzp的聊天室";
+			}
+			socket.onmessage = function(ev){
+				var regPos=/^[0-9]\d*$/;
+				var data=ev.data;
+				if(regPos.test(data)){
+					var rt=document.getElementById("num");
+					rt.innerHTML=' '+data;
+				} else {
+					var rt=document.getElementById("responseText");
+					rt.value=rt.value+"\n" + data;
+				}
+			}
+			socket.onclose=function(ev){
+				var rt=document.getElementById("responseText");
+				rt.value=rt.value+"\n" + "已退出lzp的聊天室";
+			}
+		}
+		function send(message){
+			if(!window.socket){
+				return;
+			}
+			if(socket.readyState == WebSocket.OPEN){
+				socket.send(message)
+				document.getElementById('reque').value='';
+			} else {
+				alert("连接没有开启");
+			}
+		}
+	</script>
+	<font>当前在线人数</font><font id="num"></font>
+	<form onsubmit="return false">
+		<textarea id="responseText" style="height: 300px;width:800px"></textarea>
+		<input type="button" value="清空内容" onclick="document.getElementById('responseText').value=''">
+		<textarea id= "reque" name="message" style="height: 250px;width:800px"> </textarea>
+		<input type="button" value="发送消息" onclick="send(this.form.message.value)">
+	</form>
+</body>
+</html>
